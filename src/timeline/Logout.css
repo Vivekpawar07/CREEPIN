@@ -1,0 +1,108 @@
+.profile{
+    color:grey;
+    font-size:12px;
+    
+}
+.username{
+  font-size: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: red;
+  background-color: black;
+  border: 0;
+  padding: 5px;
+  background: 0;
+  margin-right: 5px;
+}
+.username:hover{
+  color: #ff2706;
+  background-color: black;
+}
+.logout__button {
+  color: #ff2706;
+  font-weight: bold;
+  background: 0;
+  border: 0;
+  margin-left: 90px;
+  padding-left: 84px;
+  background-color: black;
+    
+  }
+  
+  .logout__button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }
+ 
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  align-self: center;
+  margin-left: 160px;
+}
+
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ff2706;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: green;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+
+input:checked + .slider {
+  background-color: green;
+  
+}
+
+
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #ff2706;
+  
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  background-color: #ff2706;
+}
+
+
+.slider.round {
+  border-radius: 25px;
+  height: 25px;
+  
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}

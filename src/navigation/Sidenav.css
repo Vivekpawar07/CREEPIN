@@ -1,0 +1,101 @@
+.sidenav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+  }
+  
+  .sidenav__logo {
+    width: 120px;
+    margin: 25px;
+    border-radius: auto;
+  }
+  
+  .sidenav__buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidenav__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #ff2706;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .sidenav__button:hover {
+    cursor: pointer;
+    background-color: black;
+    color:white;
+  }
+  
+  .sidenav__button > span {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-left: 10px;
+  }
+  
+  .sidenav__more {
+    position: fixed;
+    bottom: 3px;
+  }
+  
+  .logout__button {
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    background-color: #ff2706;
+    border: 0;
+    padding: 10px;
+  }
+  
+  .logout__button:hover {
+    cursor: pointer;
+    background-color: #ff2706;
+  }
+.sidenav__button1{
+  width: 40px;
+  height: 40px;
+  margin: 0%;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ff2706;
+  background: 0;
+  border: 0;
+  margin: 5px 10px 5px 10px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 15px;
+  width: 100%;
+  font-weight: bold;
+}
+.span{
+  font-weight: bold;
+}
+.sidenav__button1:hover {
+  cursor: pointer;
+  background-color: #ff2706;
+  color:black;
+}
+.sidenav__buttons1 {
+  display: flex;
+  flex-direction: column;
+}
+.avatar{
+  width: 40px;
+  height: 40px;
+  margin-right:15px;
+  align-self: center;
+  border-radius: 5%;
+  align-items: flex-start;
+  
+}
